@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="in.appium.appiumiostest.CalculatorTests"/>
+      <class name="in.appium.appiumiostest.BigBasket"/>
+      <class name="in.appium.appiumiostest.OtherWallet"/>
+      <class name="in.appium.appiumiostest.COD_Payment"/>
+      <class name="in.appium.appiumiostest.Chicken_Sanity"/>
+      <class name="in.appium.appiumiostest.Appium_TestNG_Sample_One"/>
+      <class name="in.appium.appiumiostest.CancelPayementByBackButtonAndClickOnBackToCart"/>
+      <class name="in.appium.appiumiostest.PaymentUsingUPI"/>
+      <class name="in.appium.appiumiostest.TodaysDeals_Sanity"/>
+      <class name="in.appium.appiumiostest.NetBankingPlusLWFailure"/>
+      <class name="in.appium.appiumiostest.NetBankingPlusLWSuccess"/>
+      <class name="in.appium.appiumiostest.Appium_TestNG_Sample_One_Simulater"/>
+      <class name="in.appium.appiumiostest.CancelPayementByBackButtonAndClickOnPOD"/>
+      <class name="in.appium.appiumiostest.Visa_Payment"/>
+      <class name="in.appium.appiumiostest.Wallet"/>
+      <class name="in.appium.appiumiostest.POD_Payment"/>
+      <class name="in.appium.appiumiostest.DebitCardPayment"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
